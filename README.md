@@ -1,12 +1,45 @@
-<p align="center"><a href="https://lunarphp.io/" target="_blank"><img src="https://raw.githubusercontent.com/lunarphp/art/main/lunar-logo.svg" width="200" alt="Lunar"></a></p>
+# 🎉 DEMO Laravel Lunar
 
-# Starter Kit
+Laravel Lunar is a cutting-edge PHP web framework, seamlessly blending elegance and efficiency. Tailored for modern web development, it offers a robust ecosystem, expressive syntax, and powerful tools for crafting high-performing applications with ease.
 
-This repository is provided as a reference to learn how to use Lunar Laravel E-Commerce package. This example is a classic e-commerce store.
+![version](https://img.shields.io/badge/version-1.0-blue)
+![rating](https://img.shields.io/badge/rating-★★★★★-yellow)
+![uptime](https://img.shields.io/badge/uptime-100%25-brightgreen)
 
-> **Warning**
-> This application is purely an example of how you can implement Lunar headless e-commerce for Laravel. It is not production ready or complete.
+### 🚀 Setup
 
-# Installation
+- Clone Project
 
-For full installation instructions please visit https://docs.lunarphp.io/core/starter-kits.html
+```shell
+git clone --depth=1 https://github.com/lunarphp/livewire-starter-kit.git
+
+```
+
+- Install Package
+
+```shell
+composer install
+```
+
+- Configure Environment
+
+```shell
+cp .env.example .env
+```
+
+- Migrate
+
+```
+php artisan migrate
+php artisan lunar:install
+php artisan db:seed
+php artisan storage:link
+```
+
+### 🏆 Run
+
+- [http://localhost:8000/hub](http://localhost:8000/hub) username : `admin` password : `admin`
+
+```shell
+php artisan serve
+```
