@@ -1,6 +1,6 @@
 # 🎉 DEMO Laravel Lunar
 
-Laravel Lunar is a cutting-edge PHP web framework, seamlessly blending elegance and efficiency. Tailored for modern web development, it offers a robust ecosystem, expressive syntax, and powerful tools for crafting high-performing applications with ease.
+Lunar is an open-source e-commerce package for Laravel, giving you the backend power of platforms like Shopify for your custom storefront. It uses familiar Laravel concepts and offers features like product management, orders, channels, and more. 
 
 ![version](https://img.shields.io/badge/version-1.0-blue)
 ![rating](https://img.shields.io/badge/rating-★★★★★-yellow)
